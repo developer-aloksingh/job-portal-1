@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(173, 168, 168);
+}
+.jobPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.jobList {
+  width: 90%;
+  max-width: 800px;
+  background-color: rgb(234, 233, 233);
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 2%;
+  padding-bottom: 20px;
+}
+.jobList:hover {
+  box-shadow: 2px 2px 10px black;
+}
+.jobList:active {
+  box-shadow: 4px 4px 10px black;
+}
+.company {
+  display: flex;
+  margin-left: 20px;
+}
+
+.company img {
+  width: 20%;
+  max-width: 100px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.company .info {
+  margin-top: 20px;
+}
+.company .info #companyName {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.company .info #role {
+  font-size: 20px;
+  font-weight: bold;
+}
