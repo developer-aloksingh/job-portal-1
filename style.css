@@ -1,6 +1,6 @@
 
 body{
-    background-color: white;
+    background-color: #f1ebeb;
     background: linear-gradient(90deg, rgba(245, 134, 214, 0.748), #474aeebd);
 }
 
@@ -198,6 +198,7 @@ nav .brand .brandName{
 }
 .internship .internshipCategory button{
     width: 27vw;
+    width: 130px;
     max-width: 160px;
     height: 40px;
     margin-bottom: 15px;
